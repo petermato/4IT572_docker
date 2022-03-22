@@ -1,8 +1,8 @@
 name: 'Build and test our Eshop'
 
 on: 
-	workflow_dispatch:
-	push:
+  workflow_dispatch:
+  push:
 
 jobs:
 	Install:
