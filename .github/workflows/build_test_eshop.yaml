@@ -5,12 +5,12 @@ on:
   push:
 
 jobs:
-	Install:
-	  runs-on: ubuntu-latest
+  Install:
+    runs-on: ubuntu-latest
 	  
-	  steps:
-	    - name: Git Checkout
-	      uses: actions/checkout@v3
-	      with:
-		token: ${( secrets.WORKFLOW_TOKEN )}
+    steps:
+      - name: Git Checkout
+      uses: actions/checkout@v3
+      with:
+	token: ${( secrets.WORKFLOW_TOKEN )}
 
