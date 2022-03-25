@@ -30,8 +30,7 @@ jobs:
         run: |
           npm ci
 
-      - name: Branch Protection Bot
-        uses: benjefferies/branch-protection-bot@1.0.7
+
 
   
   Build:
