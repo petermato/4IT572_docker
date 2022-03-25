@@ -29,6 +29,10 @@ jobs:
       - name: Install packages with npm
         run: |
           npm ci
+
+      - name: Branch Protection Bot
+        uses: benjefferies/branch-protection-bot@1.0.7
+
   
   Build:
     needs: Install
