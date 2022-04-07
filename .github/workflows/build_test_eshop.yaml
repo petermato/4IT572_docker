@@ -97,7 +97,7 @@ jobs:
       if: ${{ github.ref == 'refs/heads/master'}}
 
       steps:
-        - name: Git Checkou
+        - name: Git Checkout
           uses: actions/checkout@v3
           with:
             token: ${{ secrets.WORKFLOW_TOKEN}}
